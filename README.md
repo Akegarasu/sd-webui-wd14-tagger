@@ -12,7 +12,7 @@ see also: https://github.com/picobyte/stable-diffusion-webui-wd14-tagger
 1. *Extensions* -> *Install from URL* -> Enter URL of this repository -> Press *Install* button
     - or clone this repository under `extensions/`
        ```sh
-       $ git clone https://github.com/Akegarasu/stable-diffusion-webui-wd14-tagger.git extensions/tagger
+       $ git clone https://github.com/Akegarasu/sd-webui-wd14-tagger.git extensions/tagger
        ```
 
 2. *(optional)* Add interrogate model
