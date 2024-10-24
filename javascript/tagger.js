@@ -5,7 +5,7 @@
  * @param {Element} $rootElement
  * @returns {Promise<HTMLElement>}
  */
-function waitQuerySelector(selector, timeout = 5000, $rootElement = gradioApp()) {
+function waitQuerySelector(selector, timeout = 10000, $rootElement = gradioApp()) {
     return new Promise((resolve, reject) => {
         const element = $rootElement.querySelector(selector)
         if (document.querySelector(element)) {
