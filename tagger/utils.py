@@ -13,6 +13,14 @@ interrogators: Dict[str, Interrogator] = {}
 def refresh_interrogators() -> List[str]:
     global interrogators
     interrogators = {
+        'wd-eva02-large-tagger-v3': WaifuDiffusionInterrogator(
+            'wd-eva02-large-tagger-v3',
+            repo_id='SmilingWolf/wd-eva02-large-tagger-v3',
+        ),
+        'wd-vit-large-tagger-v3': WaifuDiffusionInterrogator(
+            'wd-vit-large-tagger-v3',
+            repo_id='SmilingWolf/wd-vit-large-tagger-v3',
+        ),
         'wd-vit-v3': WaifuDiffusionInterrogator(
             'wd14-vit-v3',
             repo_id='SmilingWolf/wd-vit-tagger-v3',
